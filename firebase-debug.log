@@ -1,0 +1,64 @@
+[debug] [2024-02-06T22:32:43.841Z] ----------------------------------------------------------------------
+[debug] [2024-02-06T22:32:43.843Z] Command:       /usr/local/bin/firebase /Users/ademaldemir/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2024-02-06T22:32:43.844Z] CLI Version:   13.1.0
+[debug] [2024-02-06T22:32:43.844Z] Platform:      darwin
+[debug] [2024-02-06T22:32:43.844Z] Node Version:  v18.5.0
+[debug] [2024-02-06T22:32:43.846Z] Time:          Wed Feb 07 2024 01:32:43 GMT+0300 (GMT+03:00)
+[debug] [2024-02-06T22:32:43.846Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-06T22:32:43.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-06T22:32:43.855Z] > authorizing via signed-in user (ademaldemir35@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ademaldemir/Desktop/aldemir-mimarlik/aldemir-mimarlık-last
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-06T22:33:12.783Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-06T22:33:13.394Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-06T22:33:13.394Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project aldemirmimarlik-4a18c (AldemirMimarlik) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-06T22:33:19.220Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/aldemirmimarlik-4a18c [none]
+[debug] [2024-02-06T22:33:19.632Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/aldemirmimarlik-4a18c 200
+[debug] [2024-02-06T22:33:19.632Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/aldemirmimarlik-4a18c {"projectId":"aldemirmimarlik-4a18c","projectNumber":"183565422917","displayName":"AldemirMimarlik","name":"projects/aldemirmimarlik-4a18c","resources":{"hostingSite":"aldemirmimarlik-4a18c"},"state":"ACTIVE","etag":"1_6c92acdc-8348-4193-996f-b1cfb4d8fea9"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-02-06T22:33:42.981Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-02-06T22:33:43.108Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-02-06T22:33:43.108Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.0","browserURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/ademaldemir 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=941102665&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-02-06T22:33:49.274Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-02-06T22:33:49.275Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-02-06T22:33:49.621Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-02-06T22:33:49.622Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-02-06T22:33:49.633Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-02-06T22:33:50.044Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-02-06T22:33:50.045Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ademaldemir","id":23633522,"node_id":"MDQ6VXNlcjIzNjMzNTIy","avatar_url":"https://avatars.githubusercontent.com/u/23633522?v=4","gravatar_id":"","url":"https://api.github.com/users/ademaldemir","html_url":"https://github.com/ademaldemir","followers_url":"https://api.github.com/users/ademaldemir/followers","following_url":"https://api.github.com/users/ademaldemir/following{/other_user}","gists_url":"https://api.github.com/users/ademaldemir/gists{/gist_id}","starred_url":"https://api.github.com/users/ademaldemir/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ademaldemir/subscriptions","organizations_url":"https://api.github.com/users/ademaldemir/orgs","repos_url":"https://api.github.com/users/ademaldemir/repos","events_url":"https://api.github.com/users/ademaldemir/events{/privacy}","received_events_url":"https://api.github.com/users/ademaldemir/received_events","type":"User","site_admin":false,"name":"Adem Aldemir","company":"@NTTDATA-EMEA","blog":"https://ademaldemir.github.io/","location":"Turkey","email":"adem.aldemir@outlook.com","hireable":null,"bio":"Software Developer 🚀 🍹","twitter_username":null,"public_repos":49,"public_gists":32,"followers":12,"following":8,"created_at":"2016-11-21T12:17:00Z","updated_at":"2024-01-17T12:27:43Z","private_gists":5,"total_private_repos":74,"owned_private_repos":74,"disk_usage":173208,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as ademaldemir 
+[info] 
