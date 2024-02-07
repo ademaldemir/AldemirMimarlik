@@ -59,3 +59,16 @@
   text-decoration: none;
   background-color: #060606;
 }
+@media(max-width: 479px) {
+  .home-image {
+    width: 478px;
+    height: 237px;
+  }
+  .home-text {
+    color: rgb(247, 243, 243);
+    font-size: 25px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 100;
+  }
+}
